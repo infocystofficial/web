@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 300vh;
+    height: 280vh;
     overflow-x: hidden;
 }
 
@@ -14,9 +14,9 @@ body::-webkit-scrollbar {
 }
 
 nav {
-    height: 50px;
+    height: 90px;
     background-color: aliceblue;
-    padding: 20px 30px;
+    /* padding: 10px 25px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,6 +25,7 @@ nav {
 .logo img {
     cursor: pointer;
     width: 150px;
+    padding: 5px;
 }
 
 nav ul {
@@ -32,8 +33,9 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 30px;
+    justify-content: flex-end;
     font-size: large;
-    align-items: center;
+    height: fit-content;
     font-weight: 600;
 }
 
@@ -50,12 +52,12 @@ nav ul li:hover {
 .contactBtn {
     background-color: black;
     color: white;
-    padding: 5px;
+    /* padding: 5px; */
     width: 130px;
-    height: 40px;
+    height: fit-content;
     font-size: large;
     border-radius: 20px;
-    margin-top: auto;
+    margin-bottom: 5px;
     transition: 0.5s;
 }
 
@@ -67,6 +69,7 @@ nav ul li:hover {
 }
 
 .blueContainer {
+    padding: 15px;
     position: relative;
     height: 450px;
     background-color: rgb(24, 71, 198);
@@ -121,16 +124,16 @@ nav ul li:hover {
     justify-content: center;
     gap: 30px;
     position: absolute;
-    bottom: -100px;
+    bottom: -120px;
     left: 30px;
 }
 
 
 .card {
     background-color: rgb(238, 248, 255);
-    padding: 30px;
-    height: 150px;
-    width: 200px;
+    padding: -15px; 
+    height: 220px;
+    width: 250px;
     text-align: center;
     display: flex;
     gap: 10px;
@@ -324,8 +327,8 @@ padding-left: 10px;
 
 }
 ::placeholder {
-    font-size: large;
-padding-left: 10px;
+font-size: large;
+/* padding-left: 10px; */
 font-style: italic;
 }
 .form-footer input[type="button"] {
@@ -379,7 +382,7 @@ footer ul li:hover {
     height: 40px;
     font-size: large;
     border-radius: 15px;
-    margin-top: auto;
+    /* margin-top: auto; */
     transition: 0.5s;
     border: 1px solid;
     

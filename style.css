@@ -301,3 +301,100 @@ nav ul li:hover {
     font-size: 25px;
     font-weight: bolder;
 }
+
+/* footer */
+ .logo-footer {
+    margin-bottom: 5px;
+ }
+
+footer p, a {
+    font-size: large;
+}
+footer h6 {
+font-size: large;
+font-weight: bold;
+position: relative;
+}
+
+.form-footer input[type="text"] {
+border: none;
+border-radius: 16px 0 0 16px;
+outline: none;
+padding-left: 10px;
+
+}
+::placeholder {
+    font-size: large;
+padding-left: 10px;
+font-style: italic;
+}
+.form-footer input[type="button"] {
+border: none;
+background:#232323;
+margin-left: -5px;
+color: #fff;
+outline: none;
+border-radius: 0 16px 16px 0;
+padding: 2px 12px;
+}
+.social fa {
+font-size: large;
+padding: 10px 15px;
+
+}
+
+
+footer ul  li a{
+text-decoration: none;
+color: black;
+text-decoration:none;
+}
+footer ul {
+    padding-left: 0;
+    cursor: pointer;
+    list-style: none;
+    display: block;
+    gap: 30px;
+    font-size: large;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+footer ul li {
+    transition: 0.5s;
+}
+
+footer ul li:hover {
+    scale: 1.05;
+    color: rgb(63, 156, 243);
+}
+
+.btn-footer {
+    text-decoration: none;  
+    background-color: black;
+    color: white;
+    /* padding: 15px; */
+    width: 130px;
+    height: 40px;
+    font-size: large;
+    border-radius: 15px;
+    margin-top: auto;
+    transition: 0.5s;
+    border: 1px solid;
+    
+}
+
+.btn-footer:hover {
+    scale: 1.05;
+    color: white;
+    background-color: rgb(63, 156, 243);
+    padding: 5px 25px;
+    line-height: 47px;
+    border: none;
+    text-decoration: none;  
+}
+
+.logo-part {
+border-right: 2px solid rgb(64, 91, 244);
+}
